@@ -6,12 +6,12 @@
 * @author Osman Nuri Okumus <onokumus@gmail.com> (https://github.com/onokumus)
 * @license: MIT
 */
-.metismenu .arrow {
+.jp-menu .arrow {
   float: right;
   line-height: 1.42857;
 }
 
-*[dir=rtl] .metismenu .arrow {
+*[dir=rtl] .jp-menu .arrow {
   float: left;
 }
 
@@ -19,11 +19,11 @@
  * Require Bootstrap 3.x
  * https://github.com/twbs/bootstrap
 */
-.metismenu .glyphicon.arrow:before {
+.jp-menu .glyphicon.arrow:before {
   content: "";
 }
 
-.metismenu .mm-active > a > .glyphicon.arrow:before {
+.jp-menu .jp-active > a > .glyphicon.arrow:before {
   content: "";
 }
 
@@ -31,11 +31,11 @@
  * Require Font-Awesome
  * http://fortawesome.github.io/Font-Awesome/
 */
-.metismenu .fa.arrow:before {
+.jp-menu .fa.arrow:before {
   content: "";
 }
 
-.metismenu .mm-active > a > .fa.arrow:before {
+.jp-menu .jp-active > a > .fa.arrow:before {
   content: "";
 }
 
@@ -43,51 +43,51 @@
  * Require Ionicons
  * http://ionicons.com/
 */
-.metismenu .ion.arrow:before {
+.jp-menu .ion.arrow:before {
   content: "";
 }
 
-.metismenu .mm-active > a > .ion.arrow:before {
+.jp-menu .jp-active > a > .ion.arrow:before {
   content: "";
 }
 
-.metismenu .plus-times {
+.jp-menu .plus-times {
   float: right;
 }
 
-*[dir=rtl] .metismenu .plus-times {
+*[dir=rtl] .jp-menu .plus-times {
   float: left;
 }
 
-.metismenu .fa.plus-times:before {
+.jp-menu .fa.plus-times:before {
   content: "";
 }
 
-.metismenu .mm-active > a > .fa.plus-times {
+.jp-menu .jp-active > a > .fa.plus-times {
   transform: rotate(45deg);
 }
 
-.metismenu .plus-minus {
+.jp-menu .plus-minus {
   float: right;
 }
 
-*[dir=rtl] .metismenu .plus-minus {
+*[dir=rtl] .jp-menu .plus-minus {
   float: left;
 }
 
-.metismenu .fa.plus-minus:before {
+.jp-menu .fa.plus-minus:before {
   content: "";
 }
 
-.metismenu .mm-active > a > .fa.plus-minus:before {
+.jp-menu .jp-active > a > .fa.plus-minus:before {
   content: "";
 }
 
-.metismenu .mm-collapse:not(.mm-show) {
+.jp-menu .jp-collapse:not(.jp-show) {
   display: none;
 }
 
-.metismenu .mm-collapsing {
+.jp-menu .jp-collapsing {
   position: relative;
   height: 0;
   overflow: hidden;
@@ -96,11 +96,11 @@
   transition-property: height, visibility;
 }
 
-.metismenu .has-arrow {
+.jp-menu .has-arrow {
   position: relative;
 }
 
-.metismenu .has-arrow::after {
+.jp-menu .has-arrow::after {
   position: absolute;
   content: "";
   width: 0.5em;
@@ -115,19 +115,19 @@
   transition: all 0.3s ease-out;
 }
 
-*[dir=rtl] .metismenu .has-arrow::after {
+*[dir=rtl] .jp-menu .has-arrow::after {
   right: auto;
   left: 1em;
   transform: rotate(135deg) translate(0, -50%);
 }
 
-.metismenu .mm-active > .has-arrow::after,
-.metismenu .has-arrow[aria-expanded=true]::after {
+.jp-menu .jp-active > .has-arrow::after,
+.jp-menu .has-arrow[aria-expanded=true]::after {
   transform: rotate(-135deg) translate(0, -50%);
 }
 
-*[dir=rtl] .metismenu .mm-active > .has-arrow::after,
-*[dir=rtl] .metismenu .has-arrow[aria-expanded=true]::after {
+*[dir=rtl] .jp-menu .jp-active > .has-arrow::after,
+*[dir=rtl] .jp-menu .has-arrow[aria-expanded=true]::after {
   transform: rotate(225deg) translate(0, -50%);
 }
 

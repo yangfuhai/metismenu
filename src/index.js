@@ -25,12 +25,12 @@ const Event = {
 };
 
 const ClassName = {
-  METIS: 'metismenu',
-  ACTIVE: 'mm-active',
-  SHOW: 'mm-show',
-  COLLAPSE: 'mm-collapse',
-  COLLAPSING: 'mm-collapsing',
-  COLLAPSED: 'mm-collapsed',
+  METIS: 'jp-menu',
+  ACTIVE: 'jp-active',
+  SHOW: 'jp-show',
+  COLLAPSE: 'jp-collapse',
+  COLLAPSING: 'jp-collapsing',
+  COLLAPSED: 'jp-collapsed',
 };
 
 class MetisMenu {
