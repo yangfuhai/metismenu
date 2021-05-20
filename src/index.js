@@ -2,7 +2,7 @@ import $ from 'jquery';
 import Util from './util';
 
 const NAME = 'metisMenu';
-const DATA_KEY = 'metisMenu';
+const DATA_KEY = 'jpressMenu';
 const EVENT_KEY = `.${DATA_KEY}`;
 const DATA_API_KEY = '.data-api';
 const JQUERY_NO_CONFLICT = $.fn[NAME];
@@ -25,12 +25,12 @@ const Event = {
 };
 
 const ClassName = {
-  METIS: 'jp-menu',
-  ACTIVE: 'jp-active',
-  SHOW: 'jp-show',
-  COLLAPSE: 'jp-collapse',
-  COLLAPSING: 'jp-collapsing',
-  COLLAPSED: 'jp-collapsed',
+  METIS: 'jpress-menu',
+  ACTIVE: 'jpress-active',
+  SHOW: 'jpress-show',
+  COLLAPSE: 'jpress-collapse',
+  COLLAPSING: 'jpress-collapsing',
+  COLLAPSED: 'jpress-collapsed',
 };
 
 class MetisMenu {

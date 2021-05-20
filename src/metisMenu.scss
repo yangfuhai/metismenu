@@ -6,11 +6,11 @@
 * @license: MIT
 */
 
-.jp-menu .arrow {
+.jpress-menu .arrow {
   float: right;
   line-height: 1.42857;
 }
-*[dir="rtl"] .jp-menu .arrow {
+*[dir="rtl"] .jpress-menu .arrow {
   float: left;
 }
 
@@ -19,10 +19,10 @@
  * https://github.com/twbs/bootstrap
 */
 
-.jp-menu .glyphicon.arrow:before {
+.jpress-menu .glyphicon.arrow:before {
   content: "\e079";
 }
-.jp-menu .jp-active > a > .glyphicon.arrow:before {
+.jpress-menu .jpress-active > a > .glyphicon.arrow:before {
   content: "\e114";
 }
 
@@ -31,10 +31,10 @@
  * http://fortawesome.github.io/Font-Awesome/
 */
 
-.jp-menu .fa.arrow:before {
+.jpress-menu .fa.arrow:before {
   content: "\f104";
 }
-.jp-menu .jp-active > a > .fa.arrow:before {
+.jpress-menu .jpress-active > a > .fa.arrow:before {
   content: "\f107";
 }
 
@@ -43,41 +43,41 @@
  * http://ionicons.com/
 */
 
-.jp-menu .ion.arrow:before {
+.jpress-menu .ion.arrow:before {
   content: "\f3d2"
 }
-.jp-menu .jp-active > a > .ion.arrow:before {
+.jpress-menu .jpress-active > a > .ion.arrow:before {
   content: "\f3d0";
 }
-.jp-menu .plus-times {
+.jpress-menu .plus-times {
   float: right;
 }
-*[dir="rtl"] .jp-menu .plus-times {
+*[dir="rtl"] .jpress-menu .plus-times {
   float: left;
 }
-.jp-menu .fa.plus-times:before {
+.jpress-menu .fa.plus-times:before {
   content: "\f067";
 }
-.jp-menu .jp-active > a > .fa.plus-times {
+.jpress-menu .jpress-active > a > .fa.plus-times {
   transform: rotate(45deg);
 }
-.jp-menu .plus-minus {
+.jpress-menu .plus-minus {
   float: right;
 }
-*[dir="rtl"] .jp-menu .plus-minus {
+*[dir="rtl"] .jpress-menu .plus-minus {
   float: left;
 }
-.jp-menu .fa.plus-minus:before {
+.jpress-menu .fa.plus-minus:before {
   content: "\f067";
 }
-.jp-menu .jp-active > a > .fa.plus-minus:before {
+.jpress-menu .jpress-active > a > .fa.plus-minus:before {
   content: "\f068";
 }
-.jp-menu .jp-collapse:not(.jp-show) {
+.jpress-menu .jpress-collapse:not(.jpress-show) {
   display: none;
 }
 
-.jp-menu .jp-collapsing {
+.jpress-menu .jpress-collapsing {
   position: relative;
   height: 0;
   overflow: hidden;
@@ -86,11 +86,11 @@
   transition-property: height, visibility;
 }
 
-.jp-menu .has-arrow {
+.jpress-menu .has-arrow {
   position: relative;
 }
 
-.jp-menu .has-arrow::after {
+.jpress-menu .has-arrow::after {
   position: absolute;
   content: '';
   width: .5em;
@@ -105,18 +105,18 @@
   transition: all .3s ease-out;
 }
 
-*[dir="rtl"] .jp-menu .has-arrow::after {
+*[dir="rtl"] .jpress-menu .has-arrow::after {
   right: auto;
   left: 1em;
   transform: rotate(135deg) translate(0, -50%);
 }
 
-.jp-menu .jp-active > .has-arrow::after,
-.jp-menu .has-arrow[aria-expanded="true"]::after {
+.jpress-menu .jpress-active > .has-arrow::after,
+.jpress-menu .has-arrow[aria-expanded="true"]::after {
   transform: rotate(-135deg) translate(0, -50%);
 }
 
-*[dir="rtl"] .jp-menu .jp-active > .has-arrow::after,
-*[dir="rtl"] .jp-menu .has-arrow[aria-expanded="true"]::after {
+*[dir="rtl"] .jpress-menu .jpress-active > .has-arrow::after,
+*[dir="rtl"] .jpress-menu .has-arrow[aria-expanded="true"]::after {
   transform: rotate(225deg) translate(0, -50%);
 }
